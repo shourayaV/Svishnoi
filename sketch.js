@@ -20,6 +20,7 @@ function setup(){
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
+    box = new Box(100,380,60,40);
     pig1 = new Pig(810, 350);
     log1 = new Log(810,260,300, PI/2);
 
@@ -45,6 +46,7 @@ function draw(){
     console.log(box2.body.angle);
     box1.display();
     box2.display();
+    box.display();
     ground.display();
     pig1.display();
     log1.display();
